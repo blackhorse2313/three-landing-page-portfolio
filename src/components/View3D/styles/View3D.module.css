@@ -1,0 +1,51 @@
+.canvasContainer {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.canvasContainer canvas {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none;
+}
+
+.intro_div {
+  position: absolute;
+  display: flex;
+  direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.site_title {
+  font-family: 'Harrington';
+  font-weight: 600;
+  font-size: 35px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (min-width: 550px) {
+  .site_title {
+    margin: 0;
+    font-size: 100px;
+  }
+}
+
+.site_description {
+  font-family: 'Harrington';
+  font-weight: 600;
+  font-size: 20px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+}

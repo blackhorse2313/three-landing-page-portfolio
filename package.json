@@ -57,5 +57,9 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production --env prod",
     "start": "cross-env NODE_ENV=development webpack serve --mode development --progress"
+  },
+  "dependencies": {
+    "react-scrollbars-custom": "^4.1.1",
+    "three": "^0.150.0"
   }
 }
